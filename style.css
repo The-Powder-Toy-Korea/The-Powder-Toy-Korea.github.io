@@ -136,3 +136,31 @@ header nav ul .active a::after {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+.tooltip {
+	display: inline-block;
+	color: #0000007F;
+	
+}
+
+.tooltip-text {
+	display: none;
+	position: absolute;
+	max-width: 256px;
+	border: 2px solid;
+	border-radius: 8px;
+	border-color: #FFFFFF0F;
+	padding: 8px;
+	color: white;
+	background: #0000003F;
+	backdrop-filter: blur(16px);
+	transform: translate(15%, -60%);
+}
+
+.downloadtable td:last-child .tooltip-text {
+	transform: translate(-105%, -60%);
+}
+
+.tooltip:hover .tooltip-text {
+	display: block;
+}
