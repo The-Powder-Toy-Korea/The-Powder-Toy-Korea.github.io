@@ -12,10 +12,15 @@
 		url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
+@font-face {
+	font-family: 'Source Han Sans KR VF';
+	src: url('resource/SourceHanSansKR-VF.ttf') format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;	
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter', 'Source Han Sans KR VF';
 	box-sizing: border-box;
 	color: white;
 }
