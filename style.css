@@ -44,7 +44,7 @@
 }
 
 body {
-	background-color: #1F1F1F;
+	background-color: #1B1B1D;
 }
 
 ul {
@@ -144,22 +144,19 @@ header nav ul .active a::after {
 
 .tooltip {
 	display: inline-block;
-	color: #0000007F;
-	
 }
 
 .tooltip-text {
 	display: none;
 	position: absolute;
+	padding: 8px 16px;
 	max-width: 256px;
-	border: 2px solid;
-	border-radius: 8px;
-	border-color: #FFFFFF0F;
-	padding: 8px;
+	border-radius: 16px;
 	color: white;
-	background: #0000003F;
-	backdrop-filter: blur(16px);
+	background: #232428;
+	font-size: 12px;
 	transform: translate(15%, -60%);
+	box-shadow: 0px 4px 8px #0000007F;
 }
 
 .downloadtable td:last-child .tooltip-text {

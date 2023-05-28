@@ -9,7 +9,6 @@
 	left: 50%;
 	top: 55%;
 	transform: translate(-50%, -50%);
-	font-family: 'Open Sans';
 	font-weight: 600;
 	font-size: xx-large;
 	z-index: 0;
@@ -20,7 +19,6 @@
 	right: 0%;
 	bottom: 0%;
 	transform: translate(-100%, -100%);
-	font-family: 'Open Sans';
 	font-weight: 200;
 	font-size: medium;
 	z-index: 1;
