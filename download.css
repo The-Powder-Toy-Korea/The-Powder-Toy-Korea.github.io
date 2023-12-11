@@ -1,10 +1,10 @@
-.headwrap {
+.head-wrap {
 	position: relative;
 	width: 100%;
 	height: 241px;
 }
 
-.headtext {
+.head-text {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -14,7 +14,7 @@
 	z-index: 0;
 }
 
-.headpicture img {
+.head-picture img {
 	object-fit: cover;
 	position: absolute;
 	width: 100%;
@@ -22,19 +22,19 @@
 	z-index: -1;
 }
 
-.mainbody {
+.main {
 	width: auto;
 	justify-content: center;
 	overflow: visible;
 	margin: 32px 10vw 128px 10vw;
 }
 
-.maintext {
+.main-text {
 	margin-top: 32px;
 	text-align: left;
 }
 
-.downloadlinks {
+.download-links {
 	position: relative;
 	top: 70%;
 	font-size: larger;
@@ -42,34 +42,34 @@
 	text-align: center;
 }
 
-.downloadlinks ul {
+.download-links ul {
 	display: flex;
 	justify-content: center;
 }
 
-.downloadlinks ul li {
+.download-links ul li {
 	width: 128px;
 }
 
-.downloadlinks ul li a {
+.download-links ul li a {
 	opacity: 0.75;
 	font-weight: 400;
 	transition: all 0.1s ease;
 }
 
-.downloadlinks ul li a:hover {
+.download-links ul li a:hover {
 	font-weight: 600;
 	opacity: 1;
 	transition: all 0.1s ease;
 }
 
-.downloadlinks ul li a:active {
+.download-links ul li a:active {
 	color: #BFBFBF;
 	font-weight: 600;
 	transition: all 0.1s ease;
 }
 
-.downloadtable {
+.download-table {
 	width: 100%;
 	margin-top: 16px;
 	margin-bottom: 16px;
@@ -77,48 +77,48 @@
 	border-radius: 16px;
 }
 
-.downloadtable table {
+.download-table table {
 	width: 100%;
 	border-collapse: collapse;
 	text-align: center;
 }
 
-.downloadtable thead {
+.download-table thead {
 	background-color: #232428;
 	border-top-left-radius: 16px;
 }
 
-.downloadtable th, td {
+.download-table th, td {
 	padding: 16px;
 }
 
-.downloadtable th:first-child  { width: 10%; border-top-left-radius: 16px; }
-.downloadtable th:nth-child(2) { width: 35%; }
-.downloadtable th:nth-child(3) { width: 10%; }
-.downloadtable th:nth-child(4) { width: 15%; }
-.downloadtable th:nth-child(5) { width: 15%; }
-.downloadtable th:last-child   { width: 15%; border-top-right-radius: 16px; }
+.download-table th:first-child  { width: 10%; border-top-left-radius: 16px; }
+.download-table th:nth-child(2) { width: 35%; }
+.download-table th:nth-child(3) { width: 10%; }
+.download-table th:nth-child(4) { width: 15%; }
+.download-table th:nth-child(5) { width: 15%; }
+.download-table th:last-child   { width: 15%; border-top-right-radius: 16px; }
 
-.downloadtable th:not(:last-child),
-.downloadtable td:not(:last-child) {
+.download-table th:not(:last-child),
+.download-table td:not(:last-child) {
 	border-right: 1px solid #FFFFFF3F;
 }
 
-.downloadtable th,
-.downloadtable tr:not(:last-child) {
+.download-table th,
+.download-table tr:not(:last-child) {
 	border-bottom: 1px solid #FFFFFF3F;
 }
 
-.downloadtable .material-icons {
+.download-table .material-icons {
 	transition: all 0.1s ease;
 }
 
-.downloadtable .material-icons:hover {
+.download-table .material-icons:hover {
 	color: #AEC8F2;
 	transition: all 0.1s ease;
 }
 
-.downloadtable .material-icons:active {
+.download-table .material-icons:active {
 	color: #AEC8F2;
 	transition: all 0.1s ease;
 }

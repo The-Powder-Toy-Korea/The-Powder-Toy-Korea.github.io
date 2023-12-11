@@ -1,0 +1,385 @@
+{
+	"downloads": [
+		{
+			"build": "None",
+			"basedVersion": "Unknown",
+			"version": "0.1",
+			"download_win": "./download/Powder_ko-KR_0.1.exe",
+			"download_mac": 0,
+			"download_lin": 0,
+			"unpackaged": 1
+		},
+		{
+			"build": "None",
+			"basedVersion": "Unknown",
+			"version": "1.0",
+			"download_win": "./download/Powder_ko-KR_1.0.exe",
+			"download_mac": 0,
+			"download_lin": 0,
+			"unpackaged": 1
+		},
+		{
+			"build": "None",
+			"basedVersion": "Unknown",
+			"version": "1.1",
+			"download_win": "./download/Powder_ko-KR_1.1.exe",
+			"download_mac": 0,
+			"download_lin": 0,
+			"unpackaged": 1
+		},
+		{
+			"build": "None",
+			"basedVersion": "Commit 858BA7C",
+			"version": "1.2",
+			"download_win": "./download/Powder_ko-KR_1.2.exe",
+			"download_mac": 0,
+			"download_lin": 0,
+			"unpackaged": 1
+		},
+		{
+			"build": "None",
+			"basedVersion": "Commit 858BA7C",
+			"version": "1.3",
+			"download_win": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-win-msvc-static.exe",
+			"download_mac": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-mac-gcc-static",
+			"download_lin": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-lin-gcc-static",
+			"unpackaged": 1
+		},
+		{
+			"build": "1",
+			"basedVersion": "Commit 8C80DCA",
+			"version": "1.4",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%201.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%201.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%201%20linux64.zip"
+		},
+		{
+			"build": "2",
+			"basedVersion": "Snapshot 229",
+			"version": "1.5",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%202.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%202.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%202%20linux64.zip"
+		},
+		{
+			"build": "3",
+			"basedVersion": "Snapshot 230",
+			"version": "1.6",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%203.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%203.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%203%20linux64.zip"
+		},
+		{
+			"build": "4",
+			"basedVersion": "Snapshot 230",
+			"version": "1.6.1",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%204.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%204.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%204%20linux64.zip"
+		},
+		{
+			"build": "5",
+			"basedVersion": "Snapshot 230",
+			"version": "1.6.2",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%205.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%205.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%205%20linux64.zip"
+		},
+		{
+			"build": "6",
+			"basedVersion": "Snapshot 231",
+			"version": "1.7",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%206.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%206.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%206%20linux64.zip"
+		},
+		{
+			"build": "7",
+			"basedVersion": "Snapshot 232",
+			"version": "1.8",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%207.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%207.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%207%20linux64.zip"
+		},
+		{
+			"build": "8",
+			"basedVersion": "Snapshot 233",
+			"version": "1.9",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%208.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%208.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%208%20linux64.zip"
+		},
+		{
+			"build": "9",
+			"basedVersion": "Snapshot 234",
+			"version": "1.10",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%209.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%209.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%209%20linux64.zip"
+		},
+		{
+			"build": "10",
+			"basedVersion": "Snapshot 235",
+			"version": "1.11",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2010.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2010.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2010%20linux64.zip"
+		},
+		{
+			"build": "11",
+			"basedVersion": "Snapshot 236",
+			"version": "1.12",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2011.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2011.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2011%20linux64.zip"
+		},
+		{
+			"build": "12",
+			"basedVersion": "Snapshot 237",
+			"version": "1.13",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2012.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2012.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2012%20linux64.zip"
+		},
+		{
+			"build": "13",
+			"basedVersion": "Snapshot 238",
+			"version": "1.14",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2013.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2013.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2013%20linux64.zip"
+		},
+		{
+			"build": "14",
+			"basedVersion": "Snapshot 239",
+			"version": "1.15",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2014.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2014.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2014%20linux64.zip"
+		},
+		{
+			"build": "15",
+			"basedVersion": "Snapshot 240",
+			"version": "1.16",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2015.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2015.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2015%20linux64.zip"
+		},
+		{
+			"build": "16",
+			"basedVersion": "Snapshot 241",
+			"version": "1.17",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2016.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2016.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2016%20linux64.zip"
+		},
+		{
+			"build": "17",
+			"basedVersion": "Snapshot 242",
+			"version": "1.18",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2017.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2017.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2017%20linux64.zip"
+		},
+		{
+			"build": "18",
+			"basedVersion": "Snapshot 243",
+			"version": "1.19",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2018.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2018.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2018%20linux64.zip"
+		},
+		{
+			"build": "19",
+			"basedVersion": "Snapshot 244",
+			"version": "1.20",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2019.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2019.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2019%20linux64.zip"
+		},
+		{
+			"build": "20",
+			"basedVersion": "Snapshot 245",
+			"version": "1.21",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2020.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2020.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2020%20linux64.zip"
+		},
+		{
+			"build": "21",
+			"basedVersion": "Snapshot 246",
+			"version": "1.22",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2021.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2021.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2021%20linux64.zip"
+		},
+		{
+			"build": "22",
+			"basedVersion": "Snapshot 247",
+			"version": "1.23",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2022.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2022.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2022%20linux64.zip"
+		},
+		{
+			"build": "23",
+			"basedVersion": "Snapshot 248",
+			"version": "1.24",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2023.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2023.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2023%20linux64.zip"
+		},
+		{
+			"build": "24",
+			"basedVersion": "Snapshot 249",
+			"version": "1.25",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2024.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2024.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2024%20linux64.zip"
+		},
+		{
+			"build": "25",
+			"basedVersion": "Snapshot 250",
+			"version": "1.26",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2025.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2025.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2025%20linux64.zip"
+		},
+		{
+			"build": "26",
+			"basedVersion": "Snapshot 251",
+			"version": "1.27",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2026.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2026.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2026%20linux64.zip"
+		},
+		{
+			"build": "27",
+			"basedVersion": "97.0 Beta 351",
+			"version": "1.28",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2027.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2027.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2027%20linux64.zip"
+		},
+		{
+			"build": "28",
+			"basedVersion": "Snapshot 252",
+			"version": "1.29",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2028.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2028.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2028%20linux64.zip"
+		},
+		{
+			"build": "29",
+			"basedVersion": "97.0",
+			"version": "2.0",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2029.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2029.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2029%20linux64.zip"
+		},
+		{
+			"build": "30",
+			"basedVersion": "Snapshot 253",
+			"version": "2.1",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2030.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2030.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2030%20linux64.zip"
+		},
+		{
+			"build": "31",
+			"basedVersion": "Snapshot 254",
+			"version": "2.2",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2031.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2031.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2031%20linux64.zip"
+		},
+		{
+			"build": "32",
+			"basedVersion": "Snapshot 255",
+			"version": "2.3",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2032.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2032.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2032%20linux64.zip"
+		},
+		{
+			"build": "33",
+			"basedVersion": "Snapshot 256",
+			"version": "2.4",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2033.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2033.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2033%20linux64.zip"
+		},
+		{
+			"build": "34",
+			"basedVersion": "Snapshot 257",
+			"version": "2.5",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2034.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2034.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2034%20linux64.zip"
+		},
+		{
+			"build": "35",
+			"basedVersion": "Snapshot 258",
+			"version": "2.6",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2035.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2035.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2035%20linux64.zip"
+		},
+		{
+			"build": "36",
+			"basedVersion": "Snapshot 259",
+			"version": "2.7",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2036.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2036.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2036%20linux64.zip"
+		},
+		{
+			"build": "37",
+			"basedVersion": "Snapshot 260",
+			"version": "2.8",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2037.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2037.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2037%20linux64.zip"
+		},
+		{
+			"build": "38",
+			"basedVersion": "Snapshot 260",
+			"version": "2.8.1",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2038.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2038.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2038%20linux64.zip"
+		},
+		{
+			"build": "39",
+			"basedVersion": "Snapshot 261",
+			"version": "2.9",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2039.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2039.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2039%20linux64.zip"
+		},
+		{
+			"build": "40",
+			"basedVersion": "Snapshot 262",
+			"version": "2.10",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2040.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2040.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2040%20linux64.zip"
+		},
+		{
+			"build": "41",
+			"basedVersion": "Snapshot 353",
+			"version": "2.11",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2041.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2041.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2041%20linux64.zip"
+		},
+		{
+			"build": "42",
+			"basedVersion": "Snapshot 354",
+			"version": "2.12",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2042.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2042.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2042%20linux64.zip"
+		}
+	]
+}

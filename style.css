@@ -159,7 +159,7 @@ header nav ul .active a::after {
 	box-shadow: 0px 4px 8px #0000007F;
 }
 
-.downloadtable td:last-child .tooltip-text {
+.download-table td:last-child .tooltip-text {
 	transform: translate(-105%, -60%);
 }
 
