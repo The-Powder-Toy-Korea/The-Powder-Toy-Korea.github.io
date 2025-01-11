@@ -580,6 +580,14 @@
 			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2067.zip",
 			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2067.dmg",
 			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2067%20linux64.zip"
+		},
+		{
+			"build": "68",
+			"basedVersion": "Snapshot 378",
+			"version": "6.1",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2068.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2068.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2068%20linux64.zip"
 		}
 	]
 }
