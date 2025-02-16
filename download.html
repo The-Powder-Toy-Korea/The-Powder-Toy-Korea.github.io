@@ -1,59 +1,100 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="download.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-	rel="stylesheet">
 <html lang="ko">
 	<head>
 		<meta charset="UTF-8">
-		<title>다운로드 - The Powder Toy Korea</title>
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" href="./resource/icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>다운로드 | The Powder Toy 공식 대한민국 커뮤니티</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/download.css">
+		<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="icon" href="assets/css/icon/icon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<header>
-			<a href="https://powdertoy.co.uk/">
-				<img src="./resource/logo.svg" alt="Go to the main homepage." width="32" height="32" class="absolute">
-			</a>
-			<nav>
-				<ul>
-					<li><a href="./index.html">Home</a></li>
-					<li class="active"><a href="./download.html">Download</a></li>
-					<li><a href="https://cafe.naver.com/powdertoy">Community</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div class="head-wrap">
-			<div class="head-picture">
-				<img src="./resource/head_picture.png" alt="Space">
-			</div>
-			<div class="head-text">Download</div>
-			<div class="download-links">
-				<ul>
-					<li><a href="https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod.zip">Windows</a></li>
-					<li><a href="https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod.dmg">macOS</a></li>
-					<li><a href="https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod%20linux64.zip">Linux</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="main">
-			<div class="main-text">
-				The Powder Toy의 한국어 버전을 내려받습니다.<br>
-				<h1><br></h1>
-			</div>
-			<h2>모든 버전의 한국어 The Powder Toy</h2>
-			<div class="download-table">
-				<table id="download-list">
-					<thead>
-						<tr>
-							<th>빌드</th><th>기반 버전</th><th>버전</th>
-							<th>Windows</th><th>macOS</th><th>Linux</th>
-						</tr>
-					</thead>
-					<tbody id="tbody">
-				</table>
-				<script src="./download.js"></script>
-			</div>
+		<div class="Page">
+			<header id="header" class="main">
+				<div class="header-body">
+					<div class="inner">
+						<div class="head-top main_logo">
+							<h1>
+								<a href="/">
+									<img src="assets/image/logo_tptkor.svg" alt="The Powder Toy 공식 대한민국 커뮤니티">
+								</a>
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="header_bottom">
+					<div class="inner">
+						<nav id="gnb1" aria-label="메인 메뉴">
+							<ul id="head_menu" class="topmenu"> 
+								<li class="plus">
+									<a href="/download.html" data-num="1" title="다운로드">다운로드</a>
+								</li>
+								<li class="plus">
+									<a href="https://cafe.naver.com/powdertoy" data-num="2" title="네이버 카페" class="outlink" target="_blank" rel=noopener>네이버 카페</a>
+								</li>
+								<li class="plus">
+									<a href="https://github.com/The-Powder-Toy-Korea" data-num="3" title="GitHub" class="outlink" target="_blank" rel=noopener>GitHub</a>
+								</li>
+								<li class="plus">
+									<a href="https://powdertoy.co.uk" data-num="4" title="TPT 공식 홈페이지" class="outlink" target="_blank" rel=noopener>TPT 공식 홈페이지</a>
+								</li>
+								<li class="plus">
+									<a href="https://powdertoy.co.uk/Wiki/W/Main_Page/ko.html" data-num="5" title="TPT 공식 위키" class="outlink" target="_blank" rel=noopener>TPT 공식 위키</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</header>
+			<main id="main_content">
+				<article class="content_width">
+					<h2 id="h2_page_title" class="mcont_tit">다운로드</h2>
+					<div class="body text">
+						<p>아래 단추를 눌러 한국어 The Powder Toy를 다운로드할 수 있습니다.</p>
+						<div class="main_download">
+							<button id="download-win-button" class="download" onclick="location.href='https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod.zip'">Windows</button>
+							<button id="download-mac-button" class="download" onclick="location.href='https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod.dmg'">macOS</button>
+							<button id="download-lin-button" class="download" onclick="location.href='https://starcatcher.us/TPT/mods/TPTKoreanMod/TPTKoreanMod%20linux64'">Linux</button>
+						</div>
+						<br>
+						<h3>모든 버전의 한국어 The Powder Toy</h3>
+						<div class="download-all">
+							<table id="download-table">
+								<thead>
+									<tr>
+										<th>빌드</th><th>기반 버전</th><th>버전</th>
+										<th>Windows</th><th>macOS</th><th>Linux</th>
+									</tr>
+								</thead>
+								<tbody id="tbody">
+							</table>
+							<script src="assets/js/download.js"></script>
+						</div>
+					</div>
+				</article>
+			</main>
+			<footer id="footer">
+				<div class="content_width">
+					<div class="footer-inner">
+						<div class="footer_logo">
+							<img src="assets/image/logo_tptkor.svg" alt="The Powder Toy 공식 대한민국 커뮤니티">
+						</div>
+						<div class="footer_info">
+							<div class="footer_link">
+								<ul class="footer-site">
+									<li>
+										<a class="naver_cafe" href="https://cafe.naver.com/powdertoy" target="_blank" title="네이버 카페" rel=noopener>네이버 카페</a>
+									</li>
+									<li>
+										<a class="github" href="https://github.com/The-Powder-Toy-Korea" target="_blank" title="GitHub" rel=noopener>GitHub</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

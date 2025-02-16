@@ -1,40 +1,86 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="index.css">
 <html lang="ko">
 	<head>
 		<meta charset="UTF-8">
-		<title>홈 - The Powder Toy Korea</title>
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" href="./resource/icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>The Powder Toy 공식 대한민국 커뮤니티</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/index.css">
+		<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"/>
+		<link rel="icon" href="assets/css/icon/icon.ico" type="image/x-icon">
 	</head>
-	<body>
-		<header>
-			<a href="https://powdertoy.co.uk/">
-				<img src="./resource/logo.svg" alt="Go to the main homepage." width="32" height="32" class="absolute">
-			</a>
-			<nav>
-				<ul>
-					<li class="active"><a href="./index.html">Home</a></li>
-					<li><a href="./download.html">Download</a></li>
-					<li><a href="https://cafe.naver.com/powdertoy">Community</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div class="head-wrap">
-			<div class="head-picture">
-				<img src="./resource/head_picture.png" alt="Space" class="cover">
-			</div>
-			<div class="head-text">The Powder Toy Korea</div>
-			<div class="cohead-text">Being ready…</div>
-		</div>
-		<div class="main-text">
-			<div class="ghlink"><a href="https://github.com/The-Powder-Toy-Korea">→ GitHub로 이동하기</a></div><br>
-			안녕하세요. 이곳은 The Powder Toy의 비공식 한국어 홈페이지입니다.<br>
-			The Powder Toy에 대한 다양한 자료들을 제공할 예정입니다.<br><br>
-			상단 좌측의 단추를 눌러 The Powder Toy 공식 홈페이지로 이동합니다.<br>
-			상단의 'Download' 단추를 눌러 한국어 모드를 내려받습니다.<br>
-			상단의 'Community' 단추를 눌러 공식 대한민국 네이버 카페로 이동합니다.
+	<body class="main">
+		<div class="wrap" id="wrap">
+			<header id="header" class="main">
+				<div class="header-body">
+					<div class="inner">
+						<div class="head-top main_logo">
+							<h1>
+								<a href="/">
+									<img src="assets/image/logo_tptkor.svg" alt="The Powder Toy 공식 대한민국 커뮤니티">
+								</a>
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="header_bottom">
+					<div class="inner">
+						<nav id="gnb1" aria-label="메인 메뉴">
+							<ul id="head_menu" class="topmenu"> 
+								<li class="plus">
+									<a href="/download.html" data-num="1" title="다운로드">다운로드</a>
+								</li>
+								<li class="plus">
+									<a href="https://cafe.naver.com/powdertoy" data-num="2" title="네이버 카페" class="outlink" target="_blank" rel=noopener>네이버 카페</a>
+								</li>
+								<li class="plus">
+									<a href="https://github.com/The-Powder-Toy-Korea" data-num="3" title="GitHub" class="outlink" target="_blank" rel=noopener>GitHub</a>
+								</li>
+								<li class="plus">
+									<a href="https://powdertoy.co.uk" data-num="4" title="TPT 공식 홈페이지" class="outlink" target="_blank" rel=noopener>TPT 공식 홈페이지</a>
+								</li>
+								<li class="plus">
+									<a href="https://powdertoy.co.uk/Wiki/W/Main_Page/ko.html" data-num="5" title="TPT 공식 위키" class="outlink" target="_blank" rel=noopener>TPT 공식 위키</a>
+								</li>
+							</ul>
+					</div>
+				</div>
+			</header>
+			<main class="main-container" id="main">
+				<div class="section1">
+					<div class="main-banner">
+						<div class="banner-text">
+							<h1>The Powder Toy의 한국어 버전 다운로드</h1>
+							<p>The Powder Toy 공식 업데이트 서버인 Starcatcher에서 제공되는 자동 업데이트 기능이 탑재되어 있습니다.</p>
+							<button id="tptkokrdl-button" onclick="location.href='/download.html'">지금 다운로드</button>
+						</div>
+						<div class="banner-image">
+							<img src="assets/image/banner_image.svg" alt="The Powder Toy ko_KR 아이콘">
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer id="footer">
+				<div class="content_width">
+					<div class="footer-inner">
+						<div class="footer_logo">
+							<img src="assets/image/logo_tptkor.svg" alt="The Powder Toy 공식 대한민국 커뮤니티">
+						</div>
+						<div class="footer_info">
+							<div class="footer_link">
+								<ul class="footer-site">
+									<li>
+										<a class="naver_cafe" href="https://cafe.naver.com/powdertoy" target="_blank" title="네이버 카페" rel=noopener>네이버 카페</a>
+									</li>
+									<li>
+										<a class="github" href="https://github.com/The-Powder-Toy-Korea" target="_blank" title="GitHub" rel=noopener>GitHub</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
 	</body>
 </html>

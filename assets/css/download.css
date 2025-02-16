@@ -1,0 +1,80 @@
+.main_download {
+	display: flex;
+	justify-content: center;
+	gap: 64px;
+	margin-bottom: 16px;
+}
+
+.main_download button {
+	min-width: 128px;
+	height: 64px;
+	padding: 0 24px;
+	font-size: 19px;
+	background: #256ef4;
+	border: none;
+	border-radius: 8px;
+	transition: all 0.1s;
+}
+
+.main_download button:hover {
+	background: #0b50d0;
+}
+
+.main_download button:active {
+	background: #083891;
+}
+
+.download-all {
+	width: 100%;
+	margin-top: 16px;
+}
+
+.download-all table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.download-all th {
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #091f25;
+	border-bottom: 1px solid #0e3139;
+	padding: 8px 16px;
+}
+
+.download-all td {
+	font-size: 17px;
+	line-height: 1.5;
+	color: #cdd1d5;
+	background-color: #131416;
+	border-bottom: 1px solid #33363d;
+	padding: 12px 16px;
+}
+
+.download-all th:first-child  { width: 10%; }
+.download-all th:nth-child(2) { width: 35%; }
+.download-all th:nth-child(3) { width: 10%; }
+.download-all th:nth-child(4) { width: 15%; }
+.download-all th:nth-child(5) { width: 15%; }
+.download-all th:nth-child(6) { width: 15%; }
+
+.download-all td:nth-child(4) { text-align: center; justify-content: center; }
+.download-all td:nth-child(5) { text-align: center; justify-content: center; }
+.download-all td:nth-child(6) { text-align: center; justify-content: center; }
+
+.download-all a { display: block; height: 24px; }
+
+.download-all .material-icons {
+	transition: all 0.1s ease;
+}
+
+.download-all .material-icons:hover {
+	color: #ecf2fe;
+	transition: all 0.1s ease;
+}
+
+.download-all .material-icons:active {
+	color: #256ef4;
+	transition: all 0.1s ease;
+}
