@@ -6,8 +6,7 @@
 			"version": "0.1",
 			"download_win": "download/Powder_ko-KR_0.1.exe",
 			"download_mac": 0,
-			"download_lin": 0,
-			"unpackaged": 1
+			"download_lin": 0
 		},
 		{
 			"build": "None",
@@ -15,8 +14,7 @@
 			"version": "1.0",
 			"download_win": "download/Powder_ko-KR_1.0.exe",
 			"download_mac": 0,
-			"download_lin": 0,
-			"unpackaged": 1
+			"download_lin": 0
 		},
 		{
 			"build": "None",
@@ -24,8 +22,7 @@
 			"version": "1.1",
 			"download_win": "download/Powder_ko-KR_1.1.exe",
 			"download_mac": 0,
-			"download_lin": 0,
-			"unpackaged": 1
+			"download_lin": 0
 		},
 		{
 			"build": "None",
@@ -33,8 +30,7 @@
 			"version": "1.2",
 			"download_win": "download/Powder_ko-KR_1.2.exe",
 			"download_mac": 0,
-			"download_lin": 0,
-			"unpackaged": 1
+			"download_lin": 0
 		},
 		{
 			"build": "None",
@@ -42,8 +38,7 @@
 			"version": "1.3",
 			"download_win": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-win-msvc-static.exe",
 			"download_mac": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-mac-gcc-static",
-			"download_lin": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-lin-gcc-static",
-			"unpackaged": 1
+			"download_lin": "https://github.com/The-Powder-Toy-Korea/The-Powder-Toy/releases/download/v1.3.0/powder-v1.3.0-x86_64-lin-gcc-static"
 		},
 		{
 			"build": "1",
@@ -628,6 +623,14 @@
 			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2073.zip",
 			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2073.dmg",
 			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2073%20linux64.zip"
+		},
+		{
+			"build": "74",
+			"basedVersion": "99.3",
+			"version": "9.0",
+			"download_win": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2074.zip",
+			"download_mac": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2074.dmg",
+			"download_lin": "https://starcatcher.us/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%2074%20linux64.zip"
 		}
 	]
 }
