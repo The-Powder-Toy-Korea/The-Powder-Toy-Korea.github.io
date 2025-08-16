@@ -8,6 +8,7 @@ const data = fetch("/assets/json/download.json")
 			const row = tbody.insertRow();
 
 			for (let i = 0; i < 6; i++) {
+				const SERVERNAME = "https://starcatcher.us";
 				const cell = row.insertCell(i);
 				let content = 0;
 
@@ -25,15 +26,33 @@ const data = fetch("/assets/json/download.json")
 						break;
 
 					case 3:
-						content = data.downloads[j].download_win;
+						if (data.downloads[j].build == "None") {
+							content = data.downloads[j].download_win;
+						} else {
+							content = SERVERNAME +
+								"/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20" +
+								data.downloads[j].build + ".zip";
+						}
 						break;
 
 					case 4:
-						content = data.downloads[j].download_mac;
+						if (data.downloads[j].build == "None") {
+							content = data.downloads[j].download_mac;
+						} else {
+							content = SERVERNAME +
+								"/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20" +
+								data.downloads[j].build + ".dmg";
+						}
 						break;
 
 					case 5:
-						content = data.downloads[j].download_lin;
+						if (data.downloads[j].build == "None") {
+							content = data.downloads[j].download_lin;
+						} else {
+							content = SERVERNAME +
+								"/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20" +
+								data.downloads[j].build + "%20linux64.zip";
+						}
 						break;
 				}
 
