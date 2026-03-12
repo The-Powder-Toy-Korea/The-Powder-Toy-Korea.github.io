@@ -444,6 +444,11 @@
 			"build": "81",
 			"basedVersion": "Snapshot 391",
 			"version": "9.7"
+		},
+		{
+			"build": "82",
+			"basedVersion": "Snapshot 392",
+			"version": "9.8"
 		}
 	]
 }
