@@ -1,14 +1,23 @@
-const table = document.getElementById('download-list');
+const SERVERNAME = "https://starcatcher.us";
 
 const data = fetch("/assets/json/download.json")
 	.then(response => response.json())
 	.then(data => {
+		document.getElementById('stable_windows').setAttribute('href',
+			SERVERNAME + "/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20"
+			+ data.latestStableBuild + ".zip");
+		document.getElementById('stable_macos').setAttribute('href',
+			SERVERNAME + "/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20"
+			+ data.latestStableBuild + ".dmg");
+		document.getElementById('stable_linux').setAttribute('href',
+			SERVERNAME + "/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20"
+			+ data.latestStableBuild + "%20linux64.zip");
+
 		for (let j = 0; j < data.downloads.length; j++) {
 			const tbody = document.getElementById('tbody');
 			const row = tbody.insertRow();
 
-			for (let i = 0; i < 6; i++) {
-				const SERVERNAME = "https://starcatcher.us";
+			for (let i = 0; i < 6; i++) {	
 				const cell = row.insertCell(i);
 				let content = 0;
 

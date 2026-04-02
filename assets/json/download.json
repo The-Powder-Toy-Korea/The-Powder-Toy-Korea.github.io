@@ -454,6 +454,12 @@
 			"build": "83",
 			"basedVersion": "99.4",
 			"version": "9.9"
+		},
+		{
+			"build": "84",
+			"basedVersion": "99.5",
+			"version": "9.10"
 		}
-	]
+	],
+	"latestStableBuild": "84"
 }

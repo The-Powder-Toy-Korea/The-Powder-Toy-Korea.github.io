@@ -560,6 +560,7 @@ body.main #main {
 	margin-bottom: 24px;
 }
 
+.stable_download,
 .main_download {
 	display: flex;
 	justify-content: center;
@@ -568,15 +569,18 @@ body.main #main {
 	gap: 16px;
 }
 
+.stable_download a,
 .main_download a {
 	color: #86aff9;
 	text-decoration: underline;
 }
 
+.stable_download a:hover,
 .main_download a:hover {
 	color: #b1cefb;
 }
 
+.stable_download a:active,
 .main_download a:active {
 	color: #d8e5fd;
 }
