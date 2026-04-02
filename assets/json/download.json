@@ -449,6 +449,11 @@
 			"build": "82",
 			"basedVersion": "Snapshot 392",
 			"version": "9.8"
+		},
+		{
+			"build": "83",
+			"basedVersion": "99.4",
+			"version": "9.9"
 		}
 	]
 }
