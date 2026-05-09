@@ -464,6 +464,11 @@
 			"build": "85",
 			"basedVersion": "Snapshot 395",
 			"version": "9.11"
+		},
+		{
+			"build": "86",
+			"basedVersion": "Snapshot 396",
+			"version": "9.12"
 		}
 	],
 	"latestStableBuild": "84"
