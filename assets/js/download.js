@@ -57,10 +57,14 @@ const data = fetch("/assets/json/download.json")
 					case 5:
 						if (data.downloads[j].build == "None") {
 							content = data.downloads[j].download_lin;
-						} else {
+						} else if (data.downloads[j].build < "87") {
 							content = SERVERNAME +
 								"/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20" +
 								data.downloads[j].build + "%20linux64.zip";
+						} else {
+							content = SERVERNAME +
+								"/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20" +
+								data.downloads[j].build + "%20linux64.tar.gz";
 						}
 						break;
 				}
