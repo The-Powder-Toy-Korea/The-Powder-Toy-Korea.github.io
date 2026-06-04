@@ -474,6 +474,11 @@
 			"build": "87",
 			"basedVersion": "Snapshot 397",
 			"version": "9.13"
+		},
+		{
+			"build": "88",
+			"basedVersion": "100.0 Beta 398",
+			"version": "9.14"
 		}
 	],
 	"latestStableBuild": "84"
