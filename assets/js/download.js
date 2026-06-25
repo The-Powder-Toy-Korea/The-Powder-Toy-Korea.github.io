@@ -11,7 +11,7 @@ const data = fetch("/assets/json/download.json")
 			+ data.latestStableBuild + ".dmg");
 		document.getElementById('stable_linux').setAttribute('href',
 			SERVERNAME + "/TPT/mods/TPTKoreanMod/Older/TPTKoreanMod%20"
-			+ data.latestStableBuild + "%20linux64.zip");
+			+ data.latestStableBuild + "%20linux64.tar.gz");
 
 		for (let j = 0; j < data.downloads.length; j++) {
 			const tbody = document.getElementById('tbody');

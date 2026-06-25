@@ -479,7 +479,12 @@
 			"build": "88",
 			"basedVersion": "100.0 Beta 398",
 			"version": "9.14"
+		},
+		{
+			"build": "89",
+			"basedVersion": "100.0",
+			"version": "10.0"
 		}
 	],
-	"latestStableBuild": "84"
+	"latestStableBuild": "89"
 }
