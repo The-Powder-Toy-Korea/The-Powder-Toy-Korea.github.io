@@ -484,7 +484,12 @@
 			"build": "89",
 			"basedVersion": "100.0",
 			"version": "10.0"
+		},
+		{
+			"build": "90",
+			"basedVersion": "100.1",
+			"version": "10.0"
 		}
 	],
-	"latestStableBuild": "89"
+	"latestStableBuild": "90"
 }
