@@ -489,6 +489,11 @@
 			"build": "90",
 			"basedVersion": "100.1",
 			"version": "10.0"
+		},
+		{
+			"build": "91",
+			"basedVersion": "Snapshot 401",
+			"version": "10.0"
 		}
 	],
 	"latestStableBuild": "90"
